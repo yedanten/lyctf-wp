@@ -64,6 +64,14 @@ for x in range(1,161):
 ## 逆向签到
 提取出dex，转jar，用jd-gui查看，明文
 ![wp](http://oznkfpsbn.bkt.clouddn.com/%E9%80%86%E5%90%91%E7%AD%BE%E5%88%B0.png)  
+## App200
+核心内容  
+![wp](http://oznkfpsbn.bkt.clouddn.com/app200.png)  
+拿参数一md5，然后每间隔一位提取字符，最后和参数二的值进行比较  
+打开APP验证一下，参数一就按提示输吧`aoteman`  
+其md5值为`b89d9bde9a90248a33d1ab2b4628fe53`, 隔位取字符得到`b99d99283da242f5`,作为参数二的值填入  
+![wp](http://oznkfpsbn.bkt.clouddn.com/app200-1.png)  
+成功，这个就是flag了，带上格式提交就行
 
 # MISC
 ## 神奇的图片 
@@ -213,3 +221,8 @@ while True:
 
 # 总结
 挺高兴受邀请参加此次赛项的，还有，题目量好多！！！  
+
+
+
+b99d99283da242f5
+8dbea04a31bb68e3
