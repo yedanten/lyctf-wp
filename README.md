@@ -202,7 +202,8 @@ post提交flag2[]=2
 那就访问xx.xx.xx.xx/flag.txt  
 得到flag,一开始以为是假的，尝试着提交一下……成功了  
 
-## PPC
+# PPC
+## 找素数
 首元素为7120597，公差为8161045, 现在要求找出属于该等差数列中的第7219个素数并输出  
 直接丢脚本吧  
 ```python
@@ -227,6 +228,17 @@ while True:
 	num += 8161045
 ```  
 
+## 大数据问题
+大数据？不存在的？简单粗暴啦
+```python
+import math
+
+sum = 0
+for x in range(1,6790):
+	sum += math.factorial(x)
+
+print(sum)
+```
 
 # 总结
 挺高兴受邀请参加此次赛项的，还有，题目量好多！！！  
